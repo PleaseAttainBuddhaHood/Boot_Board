@@ -9,12 +9,14 @@
 ### 개발환경
 - **Language**: java 11, javascript, html 5, css 3
 - **IDE**: IntelliJ Ultimate
-- **Framework**: SpringBoot 2.7.9
+- **Framework**: SpringBoot 2.7.9, querydsl
 - **Build**: Gradle
-- **DB**: 
+- **DB**: MariaDB
 - **ORM**: JPA
 - **Library**: jquery, bootstrap
-
+- **Template**: Thymeleaf   
+- **배포 관련**: AWS(EC2, RDS, S3), Putty
+   
 * * *   
 ### 주요기능   
  - **게시글**    
@@ -25,7 +27,9 @@
       
  - **로그인/로그아웃(Spring Security)**    
  
- - **자동 로그인**   
+ - **자동 로그인**    
+ - **소셜 로그인**   
+ : 카카오   
   
  - **파일(image vs non image)**   
  : 조회/업로드/다운로드/삭제   
